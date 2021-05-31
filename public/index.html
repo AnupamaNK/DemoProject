@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <script src="bundle.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link href="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/css/bootstrap4-toggle.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/gitbrent/bootstrap4-toggle@3.6.1/js/bootstrap4-toggle.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+         $('#viewChk').change(function(){
+            if($("#quotes").is(":visible"))
+            {
+                $("#quotes").hide();
+            }
+            else{
+                $("#quotes").show();
+            }
+            if($("#innerDiv2").is(":visible"))
+            {
+                $("#innerDiv2").hide();
+            }
+            else{
+                $("#innerDiv2").show();
+            }
+         });
+        });
+    </script>
+    <style>
+        .contentCls{
+            padding:15px;
+        }
+        .innerDivCls{
+            text-align: center;
+            background-color: #AED6F1;
+            font-family: sans-serif;
+            font-weight: 600;          
+        }
+        .yahoo{
+            color: #324fe1;
+            font-family: cursive;
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        .finance{
+            font-size: 20px;
+            font-family: monospace;
+            font-weight: bold;
+            padding-left: 6px;
+        }
+        
+        .forContentCls{
+            text-align: center;
+            padding: 25px;
+        }
+        
+        .card:hover {
+            transform: scale(1.1);
+            cursor:pointer;
+        }
+
+        .cardCls{
+            background-color: aliceblue;
+            width:18rem
+        }
+
+        </style>
+        </head>
+        <body>
+        
+       
+
+</body>
+</html> 
